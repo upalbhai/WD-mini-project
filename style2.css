@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url("images/download.png");
+    background-size: cover;
+}
+.navbar{
+    height: 10%;
+    background-color: #C4D7E0;
+    border: 3px solid black;
+    margin-left: 32%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.navbar-item{
+    display: flex;
+    justify-content: center;
+    padding:  10px 30px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.mainbox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.m2{
+   margin:8% 5%;
+   text-align: center;
+}
+img{
+    height: 70%;
+    width: 70%;
+}
+.m0{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.m1{
+    height: 100vh;
+    margin: 50px;
+
+}
+.p1{
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 3.5rem;
+    padding: 30px 0px;
+    font-family: 'Lato', sans-serif;
+    color: #400D51;
+}
+p{
+    padding-top: 30px;
+}
+.logo{
+    width: 50%;
+    height: 70%;
+    margin-top: 30px;
+    margin-left: 50%;
+}
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+}
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:auto;
+    height:auto;
+    border-width:2px;
+    color:#fff;
+    border-color:#378de5;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    text-shadow: 0px 1px 0px #528ecc;
+    background:linear-gradient(#0960a7, #378de5);
+    margin-top: 50px;
+    margin-right: 30px;
+    padding:10px
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .buttonClass:hover {
+    background: linear-gradient(#378de5, #79bbff);
+  }
+  h2{
+    font-size: 1.7rem;
+  }
+  @media only screen and (max-width:600px){
+    .navbar{
+        height: 5%;
+        background-color: #C4D7E0;
+        border: 1px solid black;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin:auto 5%;
+    }
+    .navbar-item{
+        display: flex;
+        justify-content: center;
+        font-size: 0.5rem;
+        padding: 2%;
+        color: black;
+        text-decoration: none;
+    }
+    .mainbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .m2{
+        margin: 8% 5%;
+        margin-bottom: 0px;
+    }
+    h1{
+        font-size: 1.8rem;
+        padding: 10px 0px;
+        font-family: 'Lato', sans-serif;
+        color: #400D51;
+    }
+          .logo{
+            width: 70%;
+            height: 70%;
+            margin-top: 15px;
+            margin-left: 25%;
+        }
+        h2{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 0.8rem;
+            margin-bottom: 5%;
+            padding-top: 15px;
+        }
+        .m1{
+            margin-bottom: 0;
+        }
+    }
+  
