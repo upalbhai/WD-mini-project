@@ -85,7 +85,7 @@ form{
         .navbar{
             height: 10%;
             background-color:#C4D7E0;
-            border: 1px solid black;
+            border: 2px solid black;
         }
         .navbar-item{
             display: flex;
