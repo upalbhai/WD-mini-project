@@ -16,7 +16,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url("images/download.png");
+    background-image: url("../images/download.png");
     background-size: cover;
 }
 input{
