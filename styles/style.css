@@ -41,7 +41,7 @@ h1{
 }
 body{
     background-image: linear-gradient(#ffd89b , #19547b);
-    background-image: url("images/download.png");
+    background-image: url("../images/download.png");
     background-size: cover;
 }
 .o{
